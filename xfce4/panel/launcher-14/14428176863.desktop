@@ -1,0 +1,28 @@
+[Desktop Entry]
+Name=Fichiers
+Comment=Accéder aux fichiers et les organiser
+Keywords=folder;manager;explore;disk;filesystem;
+Exec=thunar %UDonnees_itinerantes
+Icon=system-file-manager
+Terminal=false
+Type=Application
+StartupNotify=true
+OnlyShowIn=GNOME;Unity;
+Categories=GNOME;GTK;Utility;Core;FileManager;
+MimeType=inode/directory;application/x-gnome-saved-search;
+X-GNOME-Bugzilla-Bugzilla=GNOME
+X-GNOME-Bugzilla-Product=nautilus
+X-GNOME-Bugzilla-Component=general
+X-GNOME-Bugzilla-Version=3.10.1
+X-GNOME-UsesNotifications=true
+Actions=Window;
+X-Unity-IconBackgroundColor=#af4853
+X-Ubuntu-Gettext-Domain=nautilus
+X-XFCE-Source=file:///usr/share/applications/nautilus.desktop
+
+Path=
+
+[Desktop Action Window]
+Name=Open a New Window
+Exec=nautilus --new-window
+OnlyShowIn=Unity;

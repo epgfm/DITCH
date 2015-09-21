@@ -1,0 +1,16 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Exec=thunar Téléchargements
+Icon=folder-download
+StartupNotify=true
+Terminal=false
+Categories=Utility;X-XFCE;X-Xfce-Toplevel;
+OnlyShowIn=XFCE;
+X-XFCE-MimeType=x-scheme-handler/file;x-scheme-handler/trash;
+Name=File Manager
+Name[fr]=Gestionnaire de fichiers
+Comment=Browse the file system
+Comment[fr]=Parcourir le système de fichiers
+X-XFCE-Source=file:///usr/share/applications/exo-file-manager.desktop
+Path=

@@ -1,0 +1,6 @@
+
+
+if [ ! $XFCE_ACTIVE ]; then
+    export XFCE_ACTIVE=1
+    do_switch.sh
+fi
