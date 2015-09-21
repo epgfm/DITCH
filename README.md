@@ -5,7 +5,7 @@ git clone https://github.com/epgfm/DITCH
 
 cd DITCH
 
-./ditch_xfce.sh
+./ditch.sh
 
 # Takes ~ 20 minutes to compile
 
