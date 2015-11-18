@@ -2,7 +2,7 @@
 
 xfwm4 --replace &
 
-killall -9 nautilus
+killall -q -9 nautilus
 
 xfce4-session
 
